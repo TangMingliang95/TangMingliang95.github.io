@@ -1,0 +1,29 @@
+#yun-tie-sdk-wrap {background-color: transparent;}
+#yun-tie-sdk-wrap .tie-title-bar .active-wrap .tie-actCount{color: #333;}
+#yun-tie-sdk-wrap .input-box.z-fcs{border-color: #ddd;}
+#yun-tie-sdk-wrap .input-box .tie-submit-row {background-color: #fff;border-top:1px solid #ddd}
+#yun-tie-sdk-wrap .input-box .tie-submit-row .user-info .nickname{color: #666;}
+#yun-tie-sdk-wrap .input-box .tie-submit-row .tie-submit-btn{background-color:transparent;color: #333;font-weight:bold;border-left:1px solid #ddd;}
+#yun-tie-sdk-wrap .input-box .tie-submit-row .tie-submit-btn:hover{background-color: #f8f8f8;color: #000;}
+#yun-tie-sdk-wrap .input-box .tie-submit-row .tie-submit-btn .icon{display: none;}
+#yun-tie-sdk-wrap .tie-tab-bar li.z-fcs{background-color: transparent;}
+#yun-tie-sdk-wrap .tie-tab-bar li.z-fcs span{color: #333;}
+#yun-tie-sdk-wrap .single-tie{background-color: transparent;}
+#yun-tie-sdk-wrap .single-tie .tie-author .name-nick{color: #888;}
+#yun-tie-sdk-wrap .single-tie .tie-author .name-desp{display:none;}
+#yun-tie-sdk-wrap .single-tie .tie-author .name-ip{display:none;}
+#yun-tie-sdk-wrap .floor-tie{background-color: transparent;}
+
+#cloud-tie-wrapper{background-color: transparent;}
+#js-tie-sdk-wrapper .tie-title-bar{background-color: transparent;}
+#js-tie-sdk-wrapper .tie-title-bar .tie-title span:first-of-type{display:none;}
+#js-tie-sdk-wrapper .tie-title-bar .tie-title .join-num{color: #333;}
+#js-tie-sdk-wrapper .tie-title-bar .tie-title .join-txt{color: #666;font-weight: normal;}
+#js-tie-sdk-wrapper .tie-title-bar .user-info{color: #555;}
+#js-tie-sdk-wrapper .tie-title-bar .fix-input{color: #a8a8a8;}
+#js-tie-sdk-wrapper .tie-tab-bar li.z-fcs{color: #333; font-weight: bold;}
+#js-tie-sdk-wrapper .single-tie .tie-author .author-info span:first-of-type{display:none;}
+#js-tie-sdk-wrapper .floor-tie{background-color: transparent; border: 1px solid #ddd;}
+body>#ygt-fix-wrap-1415>#ygt-input-bar-1415 .input-write .submit-row .row-title{display:none;}
+body>#ygt-fix-wrap-1415>#ygt-input-bar-1415 .input-write .submit-row .submit-ok{color: #333; font-weight:bold;}
+body>#ygt-fix-wrap-1415>#ygt-input-bar-1415 .input-write .input-row .input-txt:focus{outline: 0;}
