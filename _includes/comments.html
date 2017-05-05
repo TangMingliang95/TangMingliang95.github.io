@@ -97,16 +97,14 @@ Tie.loader("aHR0cHM6Ly9hcGkuZ2VudGllLjE2My5jb20vcGMvbGl2ZXNjcmlwdC5odG1s", true)
 {% endif %}
 
 {% if site.gc_comments_repo %}
-<style>
-.gc-comments {font-size: 12px;}
-</style>
+<style>.gc-comments {font:12px/1.5 Lantinghei SC,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,sans-serif}</style>
 <script src="https://unpkg.com/github-comments@0.4.0/gc.js"></script>
 <div class="gc-comments" data-repos="nimojs/github-comments" data-issues="1" >
-	<div class="gc-comments-title">
+    <div class="gc-comments-title">
         评论
     </div>
     <div class="gc-comments-info">
-        想在此留下评论，请访问 <a href="issues_link">issues_link</a> 提交评论
+        想在此留下评论，请访问 <a target="_blank" href="issues_link">issues_link</a> 提交评论
     </div>
 </div>
 {% endif %}
