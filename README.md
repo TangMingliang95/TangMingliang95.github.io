@@ -5,9 +5,7 @@
 ## Theme and Subcomponents
 
 Site powered by [Jekyll](https://jekyllrb.com/) & [GitHub Pages](https://pages.github.com/).  
-Theme designed by [HYG](https://github.com/Gaohaoyang) (MIT License).  
 Commenting System [github-comments](https://github.com/nimojs/github-comments) 
-designed by [nimojs](https://github.com/nimojs).
 
 ## Documentation
 Come to [Cool Concise Jekyll Blog Theme](https://github.com/Gaohaoyang/gaohaoyang.github.io) and 
