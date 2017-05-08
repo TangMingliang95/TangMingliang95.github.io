@@ -19,6 +19,6 @@ Come to [Cool Concise Jekyll Blog Theme](https://github.com/Gaohaoyang/gaohaoyan
 	- [LiveRe](https://livere.com)
 	- [NetEase gentie](https://gentie.163.com/)
 	- [github-comments](https://github.com/nimojs/github-comments)
-- Modify CSS for NetEase gentie and github-comments
+- Modify CSS of NetEase gentie and github-comments
 - Theme Localization
 - Add 404 Page
