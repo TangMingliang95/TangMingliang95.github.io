@@ -1,19 +1,19 @@
-## Tang Mingliang's blog
+# Tang Mingliang's blog
 
 ### [View live blog: https://tangmingliang.com](https://tangmingliang.com)
 
-### Theme and Subcomponents
+## Theme and Subcomponents
 
 Site powered by [Jekyll](https://jekyllrb.com/) & [GitHub Pages](https://pages.github.com/).  
 Theme designed by [HYG](https://github.com/Gaohaoyang) (MIT License).  
 Commenting System [github-comments](https://github.com/nimojs/github-comments) 
 designed by [nimojs](https://github.com/nimojs).
 
-### Documentation
+## Documentation
 Come to [Cool Concise Jekyll Blog Theme](https://github.com/Gaohaoyang/gaohaoyang.github.io) and 
 [github-comments](https://github.com/nimojs/github-comments) for detailed documentation.
 
-### Personal modification
+## Personal modification
 
 - Add several optional commenting system which can be configured in _config.yml
 	- [LiveRe](https://livere.com)
