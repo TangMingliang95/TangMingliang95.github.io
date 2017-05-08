@@ -1,0 +1,23 @@
+#gc-comments {font-size: 1em;line-height: 1.6;font-family: 'Helvetica Neue',Helvetica,Arial,'Microsoft YaHei',sans-serif;}
+#gc-comments .gc-comments-item{border: transparent;}
+#gc-comments .gc-comments-item .gc-comments-item-hd{padding: 1em;padding-left: 3em;line-height: 1.6;background: transparent;border-bottom: transparent;}
+#gc-comments .gc-comments-item .gc-comments-item-hd .gc-comments-item-hd-avatar{left: 0;top: 0.5em;width: 2.6em;height: 2.6em;padding: 0;background-color: transparent;border: transparent;}
+#gc-comments .gc-comments-item .gc-comments-item-hd .gc-comments-item-hd-user{color: #666;font-weight: bold;}
+#gc-comments .gc-comments-item .gc-comments-item-hd .gc-comments-item-hd-user:hover{color: #223253;}
+#gc-comments .gc-comments-item .gc-comments-item-hd .gc-comments-item-hd-date{color: #999;float: right;}
+#gc-comments .gc-comments-item .gc-comments-item-hd .gc-comments-item-hd-date:hover{color: #223253;}
+#gc-comments .gc-comments-item .gc-comments-item-bd{background-color: transparent;font-family: 'Helvetica Neue',Helvetica,Arial,'Microsoft YaHei',sans-serif;border-bottom: 1px solid #ddd;}
+#gc-comments .gc-comments-item .gc-comments-item-bd .highlight{margin-bottom: 1em;}
+#gc-comments .gc-comments-item .gc-comments-item-bd .highlight pre,
+#gc-comments .gc-comments-item .gc-comments-item-bd pre{padding: 1em;font-size: 13px;font-family: Monaco,Menlo,"Microsoft YaHei Mono",Consolas,"Courier New",monospace,sans-serif;line-height: 1.6;background-color: #fff;}
+#gc-comments .gc-comments-item .gc-comments-item-bd code,
+#gc-comments .gc-comments-item .gc-comments-item-bd tt{padding: 1px 4px;margin: 0 2px;font-size: 90%;background-color: rgba(0,0,0,0.06);}
+#gc-comments .gc-comments-item .gc-comments-item-bd table{margin: 8px 0;}
+#gc-comments .gc-comments-item .gc-comments-item-bd table thead tr{background-color: #aaa;border-top: transparent;}
+#gc-comments .gc-comments-item .gc-comments-item-bd table th{padding: 2px 10px;border: transparent;font-weight: bold;}
+#gc-comments .gc-comments-item .gc-comments-item-bd table tbody tr:nth-of-type(2n){background-color: #e5eaed;}
+#gc-comments .gc-comments-item .gc-comments-item-bd table tbody tr:nth-of-type(2n+1) {background-color: #f8f8fd;}
+#gc-comments .gc-comments-item .gc-comments-item-bd table td{padding: 2px 10px;border: transparent;}
+/*
+#gc-comments .gc-comments-info{background: #fff;text-shadow: none;box-shadow: none;color: #333;padding: 1em;border: 1px solid #ddd;}
+*/

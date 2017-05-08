@@ -82,9 +82,10 @@
 
 {% if site.gc_comments_repo %}
 <script src="https://unpkg.com/github-comments@0.4.0/gc.js"></script>
-<div id = "gc-comments" class="gc-comments" data-repos="nimojs/github-comments" data-issues="1" >
-    <div class="gc-comments-info">
-        想在此留下评论，请访问 <a target="_blank" href="issues_link">issues_link</a> 提交评论
+<div id = "gc-comments-wrapper">
+	<div id = "gc-comments" class="gc-comments" data-repos="nimojs/github-comments" data-issues="1" ></div>
+    <div id = "gc-comments-info">
+        <a target="_blank" href="https://github.com/nimojs/github-comments/issues/1">点击参与讨论</a>
     </div>
 </div>
 {% endif %}
