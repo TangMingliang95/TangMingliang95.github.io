@@ -13,9 +13,9 @@ designed by [nimojs](https://github.com/nimojs).
 Come to [Cool Concise Jekyll Blog Theme](https://github.com/Gaohaoyang/gaohaoyang.github.io) and 
 [github-comments](https://github.com/nimojs/github-comments) for detailed documentation.
 
-## Personal modification
+## Personal Modification
 
-- Add several optional commenting system which can be configured in _config.yml
+- Add several optional Commenting System which can be configured in _config.yml
 	- [LiveRe](https://livere.com)
 	- [NetEase gentie](https://gentie.163.com/)
 	- [github-comments](https://github.com/nimojs/github-comments)
