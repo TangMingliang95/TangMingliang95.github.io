@@ -20,7 +20,7 @@ type: page
 - RSS订阅 [https://tangmingliang.com/feed.xml](https://tangmingliang.com/feed.xml)
 - 在GitHub上Watch 
 [TangMingliang95/TangMingliang95.github.io](https://github.com/TangMingliang95/TangMingliang95.github.io)
-- 关注本站的微信公众号“唐铭亮的个人博客”，微信号tangmingliang_blog,也可扫描下方二维码  
+- 关注微信公众号“唐铭亮的个人博客”，微信号tangmingliang_blog,也可扫描下方二维码  
 ![唐铭亮的个人博客 微信公众号](/img/wechat_public_number_QRcode.jpg)
 
 ## 联系方式
