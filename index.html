@@ -2,6 +2,7 @@
 layout: default
 ---
 
+<link rel="stylesheet" href="{{ "/css/index.css " | prepend: site.baseurl }}">
 <div class="page clearfix" index>
     <div class="left">
         <h1></h1>
@@ -73,7 +74,7 @@ layout: default
                     <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
                     Recent Posts
                 </div>
-                <ul class="content-ul" recent>
+                <ul id="side-recent" class="content-ul" recent>
                     {% for post in site.posts offset: 0 limit: 10  %}
                         <li><a href="{{ post.url }}">{{ post.title }}</a></li>
                     {% endfor %}
