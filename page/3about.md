@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: 关于
 permalink: /about/
 icon: user
 type: page
@@ -28,6 +28,6 @@ type: page
 - 邮箱: [tangmingliang95@foxmail.com](mailto:tangmingliang95@foxmail.com)
 - 网站: [唐铭亮的个人博客](https://tangmingliang.com)
 
-## Comments
+## 评论与交流
 
 {% include comments.html %}
