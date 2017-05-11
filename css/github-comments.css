@@ -19,7 +19,7 @@
 #gc-comments .gc-comments-item .gc-comments-item-bd pre{padding: 1em;font-size: 13px;font-family: Monaco,Menlo,"Microsoft YaHei Mono",Consolas,"Courier New",monospace,sans-serif;line-height: 1.6;background-color: #fff;}
 #gc-comments .gc-comments-item .gc-comments-item-bd code,
 #gc-comments .gc-comments-item .gc-comments-item-bd tt{padding: 1px 4px;margin: 0 2px;font-size: 90%;background-color: rgba(0,0,0,0.06);}
-#gc-comments .gc-comments-item .gc-comments-item-bd table{margin: 8px 0;width: fit-content;}
+#gc-comments .gc-comments-item .gc-comments-item-bd table{margin: 8px 0;width: fit-content;max-width: 100%;}
 #gc-comments .gc-comments-item .gc-comments-item-bd table thead tr{background-color: #aaa;border-top: transparent;}
 #gc-comments .gc-comments-item .gc-comments-item-bd table th{padding: 2px 10px;border: transparent;font-weight: bold;}
 #gc-comments .gc-comments-item .gc-comments-item-bd table tbody tr{border-top:transparent;}
