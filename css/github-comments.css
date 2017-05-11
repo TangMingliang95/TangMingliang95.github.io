@@ -7,14 +7,22 @@
 #gc-comments .gc-comments-item .gc-comments-item-hd .gc-comments-item-hd-date{color: #999;float: right;}
 #gc-comments .gc-comments-item .gc-comments-item-hd .gc-comments-item-hd-date:hover{color: #223253;}
 #gc-comments .gc-comments-item .gc-comments-item-bd{background-color: transparent;font-family: 'Helvetica Neue',Helvetica,Arial,'Microsoft YaHei',sans-serif;border-bottom: 1px solid #ddd;}
+#gc-comments .gc-comments-item .gc-comments-item-bd h1{font-size:30px;font-weight: 400;line-height:1.6;}
+#gc-comments .gc-comments-item .gc-comments-item-bd h2{font-size:26px;font-weight: 400;line-height:1.6;}
+#gc-comments .gc-comments-item .gc-comments-item-bd h3{font-size:23px;font-weight: 400;line-height:1.6;}
+#gc-comments .gc-comments-item .gc-comments-item-bd h4{font-size:19px;font-weight: 400;line-height:1.6;}
+#gc-comments .gc-comments-item .gc-comments-item-bd h5{font-size:17px;font-weight: 400;line-height:1.6;}
+#gc-comments .gc-comments-item .gc-comments-item-bd h6{font-size:16px;font-weight: 400;line-height:1.6;}
+#gc-comments .gc-comments-item .gc-comments-item-bd blockquote{color:#444;border-left: 5px solid #D6DBDF;padding: 10px 20px;margin: 0 0 20px;}
 #gc-comments .gc-comments-item .gc-comments-item-bd .highlight{margin-bottom: 1em;}
 #gc-comments .gc-comments-item .gc-comments-item-bd .highlight pre,
 #gc-comments .gc-comments-item .gc-comments-item-bd pre{padding: 1em;font-size: 13px;font-family: Monaco,Menlo,"Microsoft YaHei Mono",Consolas,"Courier New",monospace,sans-serif;line-height: 1.6;background-color: #fff;}
 #gc-comments .gc-comments-item .gc-comments-item-bd code,
 #gc-comments .gc-comments-item .gc-comments-item-bd tt{padding: 1px 4px;margin: 0 2px;font-size: 90%;background-color: rgba(0,0,0,0.06);}
-#gc-comments .gc-comments-item .gc-comments-item-bd table{margin: 8px 0;}
+#gc-comments .gc-comments-item .gc-comments-item-bd table{margin: 8px 0;width: fit-content;}
 #gc-comments .gc-comments-item .gc-comments-item-bd table thead tr{background-color: #aaa;border-top: transparent;}
 #gc-comments .gc-comments-item .gc-comments-item-bd table th{padding: 2px 10px;border: transparent;font-weight: bold;}
+#gc-comments .gc-comments-item .gc-comments-item-bd table tbody tr{border-top:transparent;}
 #gc-comments .gc-comments-item .gc-comments-item-bd table tbody tr:nth-of-type(2n){background-color: #e5eaed;}
 #gc-comments .gc-comments-item .gc-comments-item-bd table tbody tr:nth-of-type(2n+1) {background-color: #f8f8fd;}
 #gc-comments .gc-comments-item .gc-comments-item-bd table td{padding: 2px 10px;border: transparent;}
