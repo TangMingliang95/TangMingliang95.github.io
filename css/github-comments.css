@@ -1,4 +1,7 @@
 #gc-comments {font-size: 1em;line-height: 1.6;font-family: 'Helvetica Neue',Helvetica,Arial,'Microsoft YaHei',sans-serif;}
+#gc-comments .gc-comments-loading{color: #888;}
+#gc-comments .gc-comments-loading:after,
+#gc-comments .gc-comments-loading:before{background-color: #ccc;}
 #gc-comments .gc-comments-item{border: transparent;}
 #gc-comments .gc-comments-item .gc-comments-item-hd{padding: 1em;padding-left: 3em;line-height: 1.6;background: transparent;border-bottom: transparent;}
 #gc-comments .gc-comments-item .gc-comments-item-hd .gc-comments-item-hd-avatar{left: 0;top: 0.5em;width: 2.6em;height: 2.6em;padding: 0;background-color: transparent;border: transparent;}
