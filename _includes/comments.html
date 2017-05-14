@@ -81,12 +81,18 @@
 {% endif %}
 
 {% if site.gc_comments_repo %}
-<script src="https://unpkg.com/github-comments@0.4.1/gc.js"></script>
-<div id = "gc-comments-wrapper">
-	<div id = "gc-comments" class="gc-comments" data-repos="nimojs/github-comments" data-issues="1" ></div>
-    <div id = "gc-comments-info">
-        <a target="_blank" href="https://github.com/nimojs/github-comments/issues/1/#partial-timeline-marker">点击参与讨论</a>
-    </div>
-</div>
-<link rel="stylesheet" href="{{ "/css/github-comments.css " | prepend: site.baseurl }}">
+	{% if page.issue_id %}
+	<script src="https://unpkg.com/github-comments@0.4.1/gc.js"></script>
+	<div id = "gc-comments-wrapper">
+		<div id = "gc-comments" class="gc-comments" data-repos="{{site.gc_comments_repo}}" data-issues="{{page.issue_id}}" ></div>
+		<div id = "gc-comments-info">
+			<a target="_blank" href="https://github.com/{{site.gc_comments_repo}}/issues/page.issue_id/#partial-timeline-marker">点击参与讨论</a>
+		</div>
+	</div>
+	<link rel="stylesheet" href="{{ "/css/github-comments.css " | prepend: site.baseurl }}">
+	{% else %}
+	<div id = "gc-comments-no-id">
+		本文暂时关闭评论
+	</div>
+	{% endif %}
 {% endif %}

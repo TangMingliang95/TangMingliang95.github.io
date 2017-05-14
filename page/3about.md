@@ -1,9 +1,10 @@
 ---
-layout: page
+layout: page_with_comment
 title: 关于
 permalink: /about/
 icon: user
 type: page
+issue_id: 2
 ---
 
 * content
@@ -27,7 +28,3 @@ type: page
 - GitHub: [TangMingliang95](https://github.com/TangMingliang95)  
 - 邮箱: [tangmingliang95@foxmail.com](mailto:tangmingliang95@foxmail.com)
 - 网站: [唐铭亮的个人博客](https://tangmingliang.com)
-
-## 评论与交流
-
-{% include comments.html %}
