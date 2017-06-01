@@ -5,9 +5,9 @@
 ## Theme and Subcomponents
 
 Site powered by [Jekyll](https://jekyllrb.com/) & [GitHub Pages](https://pages.github.com/).  
-Theme designed by [HYG](https://github.com/Gaohaoyang) (MIT License). Version: May 8, 2017.  
+Theme designed by [HYG](https://github.com/Gaohaoyang) (MIT License). Version: May 20, 2017.  
 Commenting System [github-comments](https://github.com/nimojs/github-comments) 
-designed by [nimojs](https://github.com/nimojs). Version: Oct 27, 2016.
+designed by [nimojs](https://github.com/nimojs). Version: 0.5.0.
 
 ## Documentation
 Come to [Cool Concise Jekyll Blog Theme](https://github.com/Gaohaoyang/gaohaoyang.github.io) and 
