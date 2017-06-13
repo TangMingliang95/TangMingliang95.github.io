@@ -22,13 +22,14 @@
 #gc-comments .gc-comments-item .gc-comments-item-bd pre{padding: 1em;font-size: 13px;font-family: Monaco,Menlo,"Microsoft YaHei Mono",Consolas,"Courier New",monospace,sans-serif;line-height: 1.6;background-color: #fff;}
 #gc-comments .gc-comments-item .gc-comments-item-bd code,
 #gc-comments .gc-comments-item .gc-comments-item-bd tt{padding: 1px 4px;margin: 0 2px;font-size: 90%;background-color: rgba(0,0,0,0.06);}
-#gc-comments .gc-comments-item .gc-comments-item-bd table{margin: 8px 0;width: fit-content;max-width: 100%;}
+#gc-comments .gc-comments-item .gc-comments-item-bd table {display: table;width: auto;border-top: 2px solid #777;border-bottom: 2px solid #777;margin: 8px 0;border-collapse: collapse;}
+#gc-comments .gc-comments-item .gc-comments-item-bd table thead {border-bottom: 1px solid #777;background-color: #aaa;color: #fff;}
 #gc-comments .gc-comments-item .gc-comments-item-bd table thead tr{background-color: #aaa;border-top: transparent;}
-#gc-comments .gc-comments-item .gc-comments-item-bd table th{padding: 2px 10px;border: transparent;font-weight: bold;}
+#gc-comments .gc-comments-item .gc-comments-item-bd table th {padding: 2px 10px;text-align: left;border: transparent;font-weight: bold;}
 #gc-comments .gc-comments-item .gc-comments-item-bd table tbody tr{border-top:transparent;}
-#gc-comments .gc-comments-item .gc-comments-item-bd table tbody tr:nth-of-type(2n){background-color: #e5eaed;}
 #gc-comments .gc-comments-item .gc-comments-item-bd table tbody tr:nth-of-type(2n+1) {background-color: #f8f8fd;}
-#gc-comments .gc-comments-item .gc-comments-item-bd table td{padding: 2px 10px;border: transparent;}
+#gc-comments .gc-comments-item .gc-comments-item-bd table tbody tr:nth-of-type(2n) {background-color: #e5eaed;}
+#gc-comments .gc-comments-item .gc-comments-item-bd table td {padding: 2px 10px;border: transparent;}
 #gc-comments-info {padding: 2em;text-align:center;}
 #gc-comments-info a{color:#fff;background-color:#999;padding:1em;}
 #gc-comments-info a:hover{background-color:#666;}
