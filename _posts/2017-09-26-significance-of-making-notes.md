@@ -3,7 +3,7 @@ layout: post
 title: 笔记的重要性
 date: 2017-09-26 00:04:00 +0800
 category: 心得杂谈
-tags: 心得体会
+tags: 学习方法
 mathjax: false
 issue_id: 3
 ---
@@ -23,7 +23,7 @@ issue_id: 3
 
 为此，我需要把 Unity 原生的 NavMesh 导出为 CritterAI 的 Navmesh 。具体来说，是要把 `UnityEngine.AI.NavMeshTriangulation` 类转换成 `org.critterai.nav.Navmesh` 类。
 
-然而，虽然 CritterAI 给了 Unity C# 的接口，但生成 Navmesh 的核心操作，全都是使用C++编写的。最后得到的数据结构里有一项 `char* data`，这是序列化后的数据，我需要找出这个 `char*` 是如何生成的。
+然而，虽然 CritterAI 给了 Unity C# 的接口，但生成 Navmesh 的核心操作，全都是使用 C++ 编写的。最后得到的数据结构里有一项 `char* data`，这是序列化后的数据，我需要找出这个 `char*` 是如何生成的。
 
 ### 解决过程
 
