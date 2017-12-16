@@ -13,7 +13,9 @@ issue_id: 4
 
 [USACO](http://train.usaco.org/usacogate) (USA Computing Olympiad) 是知名的美国中学生信息学竞赛网站，网站内提供的算法问题由易到难，涉及的算法类型全面。
 
-本文是 USACO Training Section 1.1 的问题解答。我的 C++ 实现代码放在 [USACO-Training-Solutions](https://github.com/TangMingliang95/USACO-Training-Solutions)。
+本文是 USACO Training Section 1.1 的问题解答。 Section 1.1 的大部分问题很基础，文章中重点探讨了 Broken Necklace 问题的三种解法。
+
+我的 C++ 实现代码放在 [USACO-Training-Solutions](https://github.com/TangMingliang95/USACO-Training-Solutions)。
 
 <!--more-->
 
