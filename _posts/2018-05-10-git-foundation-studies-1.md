@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Git 基础学习（一）：版本控制的重要性
-date: 2018-05-10 00:01:00 +0800
 category: 学习笔记
 tags: Git
 mathjax: false
@@ -10,6 +9,8 @@ issue_id: 5
 
 * content
 {:toc}
+
+Git 作为当下最流行的版本控制系统，在各个软件项目上得到了广泛的应用。
 
 本文是廖雪峰的 Git 教程 [1] 的学习笔记的第一部分，主要介绍了版本控制的重要性和 Git 的工作原理。
 

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: USACO 问题解答： Section 1.1
-date: 2017-10-12 00:11:00 +0800
 category: 算法题解
 tags: 算法 USACO
 mathjax: true

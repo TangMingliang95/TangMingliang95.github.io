@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 笔记的重要性
-date: 2017-09-26 00:04:00 +0800
 category: 心得杂谈
 tags: 学习方法
 mathjax: false
