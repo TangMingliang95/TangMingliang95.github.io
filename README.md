@@ -5,7 +5,7 @@
 ## Theme and Subcomponents
 
 Site powered by [Jekyll](https://jekyllrb.com/) & [GitHub Pages](https://pages.github.com/).  
-Theme designed by [HYG](https://github.com/Gaohaoyang) (MIT License). Version: May 20, 2017.  
+Theme designed by [HYG](https://github.com/Gaohaoyang) (MIT License). Version: Oct 12, 2018.  
 Commenting System [github-comments](https://github.com/nimojs/github-comments) 
 designed by [nimojs](https://github.com/nimojs). Version: 0.5.0.
 
