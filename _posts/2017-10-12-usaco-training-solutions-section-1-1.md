@@ -146,14 +146,14 @@ b2 ... r2 ... r3 ... b3 ... b4 ... r4
 ```cpp
 while (FindNextColorIndex(necklace, pointIndex))
 {
-	int length = pointIndex[5] - 1 - pointIndex[0];
-	maxLength = maxLength > length ? maxLength : length;
+    int length = pointIndex[5] - 1 - pointIndex[0];
+    maxLength = maxLength > length ? maxLength : length;
 
-	for (int i = 0; i < 4; ++i)
-	{
-		pointIndex[i] = pointIndex[i + 2];
-	}
-}		
+    for (int i = 0; i < 4; ++i)
+    {
+        pointIndex[i] = pointIndex[i + 2];
+    }
+}
 ```
 
 在维护过程中，每次需要找到两个新的关键点，这就是 `FindNextColorIndex` 的功能。
@@ -161,22 +161,22 @@ while (FindNextColorIndex(necklace, pointIndex))
 ```cpp
 bool FindNextColorIndex(const string &necklace, int pointIndex[])
 {
-	char color = necklace[pointIndex[3]];
-	char stopColor = color == c_color1 ? c_color2 : c_color1;
+    char color = necklace[pointIndex[3]];
+    char stopColor = color == c_color1 ? c_color2 : c_color1;
 
-	for (int i = pointIndex[3]; i < necklace.length(); ++i)
-	{
-		if (necklace[i] == color)
-		{
-			pointIndex[4] = i;
-		}
-		else if (necklace[i] == stopColor)
-		{
-			pointIndex[5] = i;
-			return true;
-		}
-	}
-	return false;
+    for (int i = pointIndex[3]; i < necklace.length(); ++i)
+    {
+        if (necklace[i] == color)
+        {
+            pointIndex[4] = i;
+        }
+        else if (necklace[i] == stopColor)
+        {
+            pointIndex[5] = i;
+            return true;
+        }
+    }
+    return false;
 }
 ```
 
