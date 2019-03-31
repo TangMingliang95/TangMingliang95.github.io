@@ -69,7 +69,7 @@ $ git config --list                                 # 查看所有配置信息
 
 ### git add
 
-在 Working Directory 里，有复数个文件被改动是极为正常的情况。然而，并非所有的改动我们都希望提交到下一个版本，比如说本地的临时修改，或者是至少是暂时在这个版本不希望提交的内容。因此，我们要将需要提交的改动从 Working Directory 给添加到 Index 中。
+在 Working Directory 里，有复数个文件被改动是极为正常的情况。然而，并非所有的改动我们都希望提交到下一个版本，比如说本地的临时修改，或者至少是暂时在这个版本不希望提交的内容。因此，我们要将需要提交的改动从 Working Directory 给添加到 Index 中。
 
 在 Git 里，通过 `git add [<pathspec>]` 可以把某一路径下的改动从 Working Directory 添加到 Index 中。如果确认所有的改动都是需要的，也可以一次性添加当前目录或者当前项目中的所有改动。从 Stack Overflow [4] 中了解到，在 Git 2.0 中，
 
